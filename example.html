@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>UUID Example</title>
+		<meta charset="utf-8">
+		<script src="lib/uuid.js"></script>
+	</head>
+	<body>
+		<script>
+			// Replace the below numbers with random numbers that are generated on the server.
+			// They should be 32-bit unsigned integers (integers greater than or equal to 0 and less than 2^32)
+			var seed = [2752792635, 86914185, 58396346, 119515605];
+			
+			Uuid.initialize(seed);
+			
+			for (var i = 0; i < 10; i++) {
+				document.write(Uuid.create());
+				document.write("<br />");
+			}
+		</script>
+	</body>
+</html>
