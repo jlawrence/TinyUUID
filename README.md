@@ -48,7 +48,7 @@ Uuid.create(); // -> '96a3a1fe-df48-4b7a-b8aa-d3acfca9f74e'
 Copyright (c) 2012 Joshua Lawrence
 Released under the MIT license.
 
-XXTEA implementation copyright (c) Chris Veness 2002-2010: www.movable-type.co.uk/tea-block.html
+XXTEA implementation copyright (c) Chris Veness 2002-2010: http://www.movable-type.co.uk/scripts/tea-block.html
 Released under the Creative Commons Attribution 3.0 Unported License.
 
 ## Citations ##
