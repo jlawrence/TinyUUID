@@ -17,6 +17,7 @@ This library attempts to solve these problems by using a block cipher to generat
 ### Step 1 ###
 
 Include the script.
+
 ```html
 <head>
 	<script src="uuid.js"></script>
